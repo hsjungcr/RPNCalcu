@@ -1,0 +1,89 @@
+Action: Put the number in the stack using both keyboard and GUI 
+Expected Output: Number was entered into the stack
+Actual Output: Number was entered into the stack
+Reason for test: Test “Enter” & “\n”
+Reason for difference: N/A
+
+Action: Test operators (+ - * / ^ %)
+Expected Output: The two items on top of the stack will be processed with that operator, regardless whether the operator was inputted using keyboard or GUI. If there is less than two items on stack and there are no number entered before the operator was entered, the error message will show up.
+Actual Output: The two items on top of the stack will be processed with that operator, regardless whether the operator was inputted using keyboard or GUI. If there is less than two items on stack and there are no number entered before the operator was entered, the error message will show up.
+Reason for test: Test and validate operator 
+Reason for difference: N/A
+
+Action: Test operator 1/n
+Expected Output: The number on display will be inversed
+Actual Output: The number on display will be inversed
+Reason for test: Test 1/n
+Reason for difference: N/A 
+
+Action: Test operator +/-
+Expected Output: The number on display will be multiplied by -1
+Actual Output: The number on display will be multiplied by -1
+Reason for test: Test operator +/-
+Reason for difference: N/A
+
+Action: Test help mode
+Expected Output: Help Mode working properly for every GUI button (excluding number button) 
+Actual Output: Help Mode working properly for every GUI button (excluding number button) 
+Reason for test: Test help mode
+Reason for difference: N/A
+
+Action: Test C
+Expected Output: Clear the display
+Actual Output: Clear the display
+Reason for test: Test C
+Reason for difference: N/A
+
+Action: Test CE
+Expected Output: Clear all entry in stack
+Actual Output: Clear all entry in stack
+Reason for test: Test CE
+Reason for difference: N/A
+
+Action: Test Up and Down
+Expected Output: Up will rotate the stack “up” and Down will rotate the stack “down”
+Actual Output: Up will rotate the stack “up” and Down will rotate the stack “down”
+Reason for test: Test up and Down
+Reason for difference: N/A
+
+Action: Test Save and Load
+Expected Output: Save will put the calc.instructions to specified filename, load will load the macro file to calc.instructions
+Actual Output: Save will put the calc.instructions to specified filename, load will load the macro file to calc.instructions
+Reason for test: Test save and load 
+Reason for difference: N/A
+
+Action: Test Rec and Run
+Expected Output: Rec will write the command to calc.instructions, run will run the calc.instructions 
+Actual Output: Rec will write the command to calc.instructions, run will run the calc.instructions
+Reason for test: Test rec and run
+Reason for difference: N/A
+
+Action: Test Get and Set
+Expected Output: Able to set a number to register 0-9, then able o retrieve the number using “Get”. In addition, user should be able to enter any number and put it into stack after the “Get” and “set” process are finished without “C” or “CE”
+Actual Output: Able to set a number to register 0-9, then able o retrieve the number using “Get”. In addition, user should be able to enter any number and put it into stack after the “Get” and “set” process are finished without “C” or “CE”
+Reason for test: Validating the “Get” and “Set” working properly
+Reason for difference: N/A
+
+Action: Test Exit
+Expected Output: Exit the Application
+Actual Output: Exit the application
+Reason for test: Test exit button
+Reason for difference: N/A
+
+Action: Test standard deviation macro
+Expected Output: With register 0-6 has value of 5, 7, 3, 6, 6, 2, 5
+Actual Output: register 7 is 34, register 8 is 4.8571…, register 9 is 1.77281….
+Reason for test: register 7 is 34, register 8 is 4.8571…, register 9 is 1.77281….
+Reason for difference: N/A
+
+Action: With 1 item on stack (ie. The item value is 3.5), type 5 then operator +
+Expected Output: The output is 8.5, which is also the only item on the stack.
+Actual Output: The output is 8.5, which is also the only item on the stack.
+Reason for test: Test operator after entering a number without pressing “Enter” in between
+Reason for difference: N/A
+
+Action: Entering a number to the stack after doing a “set” command without “C” or “CE” in between
+Expected Output: The number is entered to stack
+Actual Output: The number is entered to stackMake sure I can enter a number right after doing a “Set” process without “C or “CE” in between
+Reason for difference: N/A
+
