@@ -27,9 +27,9 @@
 //
 //    Programmer:	Paul Bladek
 //   
-//    Date:		5/3/11
+//    Date:			5/3/11
 // 
-//    Version:		1.03
+//    Version:		1.04
 //  
 //    Environment:
 //       Hardware: Intel Xeon PC
@@ -82,10 +82,10 @@
 //			void unary_prep(double& d) -- 		   
 //
 //    History Log:
-//	4/20/03	PB  completed version 1.0
-//	5/27/05	PB  minor modifications 1.01
-//	5/3/11	PB  minor modifications 1.02
-//	6/3/12  PB  minor modifications 1.03
+//			4/20/03	PB  completed version 1.0
+//			5/27/05	PB  minor modifications 1.01
+//			5/3/11	PB  minor modifications 1.02
+//			6/3/12  PB  minor modifications 1.03
 // ----------------------------------------------------------------------------
 
 using namespace std;
